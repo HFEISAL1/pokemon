@@ -1,6 +1,6 @@
 import React from "react";
 
-/*function Home() {
+function Home() {
   return (
     <div className="comment">
       <h1>POKEMON REVIEW NOSTALGIA</h1>
@@ -13,4 +13,3 @@ import React from "react";
 }
 
 export default Home;
-added the pokemon image link on display 
