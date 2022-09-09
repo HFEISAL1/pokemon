@@ -9,7 +9,7 @@ function App() {
   const [pokemons, setPokemon] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:9292/pokemon")
+    fetch("https://pokemon-moringa.herokuapp.com/pokemon")
       .then((r) => r.json())
       .then((pokemon) => setPokemon(pokemon));
   }, []);

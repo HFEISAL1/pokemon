@@ -11,7 +11,7 @@ function Pokemon() {
   const { id } = useParams();
 
   useEffect(() => {
-    fetch(`http://localhost:9292/pokemon/${id}`)
+    fetch(`https://pokemon-moringa.herokuapp.com/pokemon/${id}`)
       .then((r) => r.json())
       .then(setPokemon);
   }, [id]);
@@ -19,7 +19,7 @@ function Pokemon() {
   const [reviews, setReviews] = useState([]);
 
   const getProfile = async () => {
-    const response = await fetch(`http://localhost:9292/pokemon/${id}/reviews`);
+    const response = await fetch(`https://pokemon-moringa.herokuapp.com/pokemon/${id}/reviews`);
     const data = await response.json();
     setReviews(data.reviews);
   };

@@ -10,7 +10,7 @@ function NewReview({ pokemon_id }) {
 
   function handleSubmit(e) {
     e.preventDefault();
-    fetch(`http://localhost:9292/reviews`, {
+    fetch(`https://pokemon-moringa.herokuapp.com/reviews`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
