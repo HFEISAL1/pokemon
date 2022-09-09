@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useParams } from "react-router-dom";
 
-function NewReview({ pokemon_id }) {
+/*function NewReview({ pokemon_id }) {
   const [text, setText] = useState("");
   const [rating, setRating] = useState("");
 
@@ -10,7 +10,7 @@ function NewReview({ pokemon_id }) {
 
   function handleSubmit(e) {
     e.preventDefault();
-    /*fetch(`https://pokemon-moringa.herokuapp.com/reviews`, {
+    fetch(`https://pokemon-moringa.herokuapp.com/reviews`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
