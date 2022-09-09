@@ -1,9 +1,9 @@
-/*import React from "react";
+import React from "react";
 import { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import DeleteReview from "./DeleteReview";
 
-function ReviewFeed({ reviews }) {
+/*function ReviewFeed({ reviews }) {
   const navigate = useNavigate();
   const { id } = useParams();
 
