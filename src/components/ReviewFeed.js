@@ -21,7 +21,7 @@ function ReviewFeed({ reviews }) {
 
   console.log(reviews);
 
-  /*function handleDelete(e) {
+  function handleDelete(e) {
     // e.preventDefault()
     fetch(`/https://pokemon-moringa.herokuapp.com/reviews${reviews.id}`, {
       method: "DELETE",
