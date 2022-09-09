@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 
-/*function DeleteReview({ reviews_id }) {
+function DeleteReview({ reviews_id }) {
   const { id } = useParams();
 
   function handleDelete(e) {
