@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import DeleteReview from "./DeleteReview";
 
-/*function ReviewFeed({ reviews }) {
+function ReviewFeed({ reviews }) {
   const navigate = useNavigate();
   const { id } = useParams();
 
@@ -21,7 +21,7 @@ import DeleteReview from "./DeleteReview";
 
   console.log(reviews);
 
-  function handleDelete(e) {
+  /*function handleDelete(e) {
     // e.preventDefault()
     fetch(`/https://pokemon-moringa.herokuapp.com/reviews${reviews.id}`, {
       method: "DELETE",
