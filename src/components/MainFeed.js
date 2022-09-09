@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function MainFeed({ pokemons }) {
+/*function MainFeed({ pokemons }) {
   return (
     <div>
       <ul style={{ display: "flex", flexWrap: "wrap" }}>
