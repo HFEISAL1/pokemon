@@ -10,7 +10,7 @@ function Pokemon() {
 
   const { id } = useParams();
 
-  useEffect(() => {
+  /*useEffect(() => {
     fetch(`https://pokemon-moringa.herokuapp.com/pokemon/${id}`)
       .then((r) => r.json())
       .then(setPokemon);

@@ -40,7 +40,7 @@ function NewReview({ pokemon_id }) {
           type="text"
           id="text"
           rows="10"
-          /*placeholder="Comment here..."
+          placeholder="Comment here..."
           onChange={(e) => setText(e.target.value)}
         />
         <br></br>
