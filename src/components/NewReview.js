@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 import { useParams } from "react-router-dom";
 
-/*function NewReview({ pokemon_id }) {
+function NewReview({ pokemon_id }) {
   const [text, setText] = useState("");
   const [rating, setRating] = useState("");
 
   const { id } = useParams();
   const [errors, setErrors] = useState([]);
 
-  function handleSubmit(e) {
+  /*function handleSubmit(e) {
     e.preventDefault();
     fetch(`https://pokemon-moringa.herokuapp.com/reviews`, {
       method: "POST",
