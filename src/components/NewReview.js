@@ -10,7 +10,7 @@ function NewReview({ pokemon_id }) {
 
   function handleSubmit(e) {
     e.preventDefault();
-    /*fetch(`https://pokemon-moringa.herokuapp.com/reviews`, {
+    fetch(`https://pokemon-moringa.herokuapp.com/reviews`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -31,7 +31,7 @@ function NewReview({ pokemon_id }) {
 
   console.log(pokemon_id);
 
-  return (
+ /* return (
     <div className="reviews" >
       <h3>Create Review</h3>
       <form onSubmit={handleSubmit} id={pokemon_id}>
