@@ -31,7 +31,7 @@ function NewReview({ pokemon_id }) {
 
   console.log(pokemon_id);
 
- /* return (
+ return (
     <div className="reviews" >
       <h3>Create Review</h3>
       <form onSubmit={handleSubmit} id={pokemon_id}>
@@ -40,7 +40,7 @@ function NewReview({ pokemon_id }) {
           type="text"
           id="text"
           rows="10"
-          placeholder="Comment here..."
+          /*placeholder="Comment here..."
           onChange={(e) => setText(e.target.value)}
         />
         <br></br>
