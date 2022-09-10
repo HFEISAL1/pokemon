@@ -13,6 +13,10 @@ In mine a user of the web app is able to :
     d.Submit
  The view takes you to each character card which lets you write a comment review of what you like about the particular pokemon character  , rate the review and submit . One can also delete if desired  
 
+I used a faker api thus unable to load images on rate card 
+https://pokemon-moringa.herokuapp.com/pokemon
+Thus , this allowed me to fetch poken characters
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
