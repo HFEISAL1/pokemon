@@ -1,7 +1,7 @@
 # Getting Started with Create React App
 ABOUT THE POKEMON REVIEW APP 
 * i deployed the frontend on VERCEL  
-https://pokemon-90fmq6yq7-hfeisal1.vercel.app/
+https://pokemo-review-app.vercel.app/
 
 It shows the different charactes of netlify lovers and what each character reprsents . 
 As the project stipulates we are to come up with  functions 
